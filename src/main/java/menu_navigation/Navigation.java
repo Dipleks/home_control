@@ -1,7 +1,6 @@
 package menu_navigation;
 
 import home.Establishing;
-import javafx.geometry.Insets;
 
 import java.util.Arrays;
 import java.util.List;
