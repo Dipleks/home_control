@@ -34,7 +34,7 @@ public abstract class Fulfilling implements Establishing {
 
         button.setPrefSize(WIDTH_SIZE/15, HEIGHT_SIZE/15);
         button.setFont(Font.font("Time New Roman", FontWeight.BOLD,
-                FontPosture.ITALIC, HEIGHT_SIZE/80));
+                FontPosture.ITALIC, HEIGHT_SIZE/70));
         button.graphicProperty().setValue(new ImageView(image)); // Добавляем изображение на кнопку
         button.setContentDisplay(ContentDisplay.TOP); // Размещаем надпись под изображением
 

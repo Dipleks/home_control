@@ -5,7 +5,7 @@ import javafx.scene.image.Image;
 
 public class TotalExpenditure extends Fulfilling {
 
-    private Button totalExpenditure = new Button("Общие расходы");
+    private Button totalExpenditure = new Button("Бюджет");
     private Image image = new Image("totalExpenditure.png");
 
     @Override
