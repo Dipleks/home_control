@@ -29,6 +29,8 @@ public class Navigation implements Establishing {
                 income.getIncome(), expense.getExpense(), translations.getTranslations(),
                 credit.getCredit(), arrears.getArrears(), calendar.getCalendar(), reports.getReports());
         MENU_NAVIGATION.setSpacing(2); //растояние между кнопками
+        MENU_NAVIGATION.setLayoutY(HEIGHT_SIZE/25);
+//        MENU_NAVIGATION.setStyle("-fx-border-color: RED");
         ROOT.getChildren().add(MENU_NAVIGATION);
     }
 }
