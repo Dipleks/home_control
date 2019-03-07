@@ -5,6 +5,9 @@ import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
 
+/**
+ * Класс меню-бара.
+ */
 public class MenuBars implements Establishing {
 
     private MenuBar menuBar = new MenuBar();

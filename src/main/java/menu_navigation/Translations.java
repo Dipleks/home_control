@@ -9,6 +9,7 @@ public class Translations extends Fulfilling {
     private Image image = new Image("translations.png");
     @Override
     public void getReport() {
+        Fulfilling.clear();
         System.out.println("Показывает таблицу переводов");
     }
 
@@ -17,7 +18,7 @@ public class Translations extends Fulfilling {
         provideView(image, translations);
     }
 
-    public Button getTranslations() {
+    Button getTranslations() {
         return translations;
     }
 }

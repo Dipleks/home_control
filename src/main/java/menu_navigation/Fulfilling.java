@@ -40,4 +40,8 @@ public abstract class Fulfilling implements Establishing {
 
         return button;
     }
+
+    protected static void clear(){
+        ROOT_TABLE.getChildren().clear();
+    }
 }
