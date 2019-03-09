@@ -44,7 +44,7 @@ public class IncomeTable implements Establishing {
         income.setLayoutX(WIDTH_SIZE/20);
         income.setPrefSize(name.getWidth()+sum.getWidth()+date.getWidth()+notes.getWidth()+20,
                 HEIGHT_SIZE/1.5);
-        income.setStyle("-fx-font-size: 12pt");
+//        income.setStyle("-fx-font-size: 10pt");
 
         ObservableList<LayoutTable> list = getList();
         income.setItems(list);
